@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			SPAM APP(output)
+		</div>
+		<h1 style="color:blue;">SPAM DETECTOR RESULT</h1>
+
+	</div>
+	</header>
+	{% if prediction == 1%}
+	<h2 style="color:red;">It is a Spam</h2>
+	{% elif prediction == 0%}
+	<h2 style="color:green;">It is not a Spam (It is a Ham)</h2>
+	{% endif %}
+
+</body>
+</html>
