@@ -1,7 +1,7 @@
 body{
 	font:17px/1.5 Arial, Helvetica,sans-serif;
 	padding: 0px;
-	background-color:#f4f3f3;
+
 }
 
 .container{
@@ -11,17 +11,14 @@ body{
 }
 
 header{
-	background:#03A9F4;#35434a;
-	border-bottom:#448AFF 3px solid;
-	height:120px;
+	height:130px;
 	width:100%;
-	padding-top:30px;
+	padding-top:35px;
 
 }
 
 .main-header{
 			text-align:center;
-			background-color: blue;
 			height:100px;
 			width:100%;
 			margin:0px;
@@ -29,12 +26,9 @@ header{
 #brandname{
 	float:left;
 	font-size:35px;
-	color:  #00ff00 ;
+	color:  #5c44FF ;
 	margin: 12px;
 }
 
-header h2{
-	text-align:center;
-	color: #00ff00 ;
 
 }
